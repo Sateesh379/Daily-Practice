@@ -1,11 +1,10 @@
 #!/bin/bash
 
 echo " Please enter a number::"
-number=$1
 read number
-if [ "$1" -lt 0 ]; then
+if [ number -lt 0 ]; then
 
-    echo "this is negative $1"
+    echo "this is negative number"
 else
-    echo "this is positive $1"
+    echo "this is positive number"
 fi
