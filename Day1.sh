@@ -6,7 +6,7 @@ number=$1
 
 read number
 
-if [ $1 -lte 0 ]; then
+if [ $1 -lt 0 ]; then
 
     echo "this is negative $1"
 else
